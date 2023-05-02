@@ -8,10 +8,10 @@
    {
      for(j=5; j>=i; --j)
 
-//         cout<<" ";
-//         for(k=1; k<=i*2-1; k++)
-//         cout<<"*";
-//         cout<<endl;
+         cout<<" ";
+         for(k=1; k<=i*2-1; k++)
+         cout<<"*";
+     cout<<endl;
 
 //    }
 
