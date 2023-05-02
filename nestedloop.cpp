@@ -32,112 +32,112 @@ cout<<--b;  // prefix    decre...
 a++ postfix  increment first return the same value then increment it
 ++a prefix increment increment the first value
 
-//  #include <iostream>
-//  using namespace std;
-//  int main()
-//  { int a;
-//    cout<<" input your values ";
-//    cin>>a;
-//    string value =(a>10) ? "passed": "failed";
-//    cout<<"you "<<value<<" exam";
+ #include <iostream>
+ using namespace std;
+ int main()
+ { int a;
+   cout<<" input your values ";
+   cin>>a;
+   string value =(a>10) ? "passed": "failed";
+   cout<<"you "<<value<<" exam";
 
-//   return 0;
+  return 0;
 
-//  }
+ }
 
-// #include<iostream>
-// using namespace std;
-// int main()
-// {   char ch;
-//      cout<<" input your alphabets \n ";
-//      cin>>ch;
-//      switch(ch)
-//      {
-//       case 'A': case 'a':cout<<ch<<" is an vowel"; break;
-//       case 'E': case 'e':cout<<ch<<" is an vowel"; break;
-//       case 'I': case 'i':cout<<ch<<" is an vowel"; break;
-//       case 'O': case 'o':cout<<ch<<" is an vowel"; break;
-//       case 'U': case 'u':cout<<ch<<" is an vowel"; break;
-//       default:cout<<ch<<" is a consonant";
+#include<iostream>
+using namespace std;
+int main()
+{   char ch;
+     cout<<" input your alphabets \n ";
+     cin>>ch;
+     switch(ch)
+     {
+      case 'A': case 'a':cout<<ch<<" is an vowel"; break;
+      case 'E': case 'e':cout<<ch<<" is an vowel"; break;
+      case 'I': case 'i':cout<<ch<<" is an vowel"; break;
+      case 'O': case 'o':cout<<ch<<" is an vowel"; break;
+      case 'U': case 'u':cout<<ch<<" is an vowel"; break;
+      default:cout<<ch<<" is a consonant";
 
-//      }
+     }
 
-//   return 0;
+  return 0;
 
-// }
+}
 
-// #include<iostream>
-// using namespace std;
-// int main()
-// {  char ch;
-//    cout<<" enter your character ";
-//    cin>>ch;
-//    if(ch=='a'|| ch=='e'|| ch=='i'|| ch=='o'|| ch=='u' || ch=='A'||ch=='E'|| ch=='I'||ch=='O'||ch=='U')
-//    cout<<" its a vowel ";
-//    else
-//    cout<<"consonant";
+#include<iostream>
+using namespace std;
+int main()
+{  char ch;
+   cout<<" enter your character ";
+   cin>>ch;
+   if(ch=='a'|| ch=='e'|| ch=='i'|| ch=='o'|| ch=='u' || ch=='A'||ch=='E'|| ch=='I'||ch=='O'||ch=='U')
+   cout<<" its a vowel ";
+   else
+   cout<<"consonant";
 
-//   return 0;
+  return 0;
 
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//   int i;
-//      for (int i = 1; i <= 14; i++)
-//   {
-//       if (i == 5)
-//     {
-//       break;
-//     }
-//     cout << i;
-//   }
-//   return 0;
-// }
-// # include <iostream>
-// using namespace std;
-// int main()
-// {
-// cout<<" programe by using ternary operator ";
-// for (int i = 0; i < 20; i++)
+}
+#include <iostream>
+using namespace std;
+int main()
+{
+  int i;
+     for (int i = 1; i <= 14; i++)
+  {
+      if (i == 5)
+    {
+      break;
+    }
+    cout << i;
+  }
+  return 0;
+}
+# include <iostream>
+using namespace std;
+int main()
+{
+cout<<" programe by using ternary operator ";
+for (int i = 0; i < 20; i++)
 
-// {
-//   cout<<((i%2==0)? 'x': 'o')<<'\n';
-// }
+{
+  cout<<((i%2==0)? 'x': 'o')<<'\n';
+}
 
-// }
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-// int a, b=7, c=5;
-// if (b++ > 7)
-// a = 8;
-// else
-// a = ++b - c++;
-// cout <<a<<b<<c;
-// return 0;
-//  }
+}
+#include <iostream>
+using namespace std;
+int main()
+{
+int a, b=7, c=5;
+if (b++ > 7)
+a = 8;
+else
+a = ++b - c++;
+cout <<a<<b<<c;
+return 0;
+ }
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {  int b=4;
-//     ++b;
-//     cout<<b;
+#include <iostream>
+using namespace std;
+int main()
+{  int b=4;
+    ++b;
+    cout<<b;
 
-//   return 0;
+  return 0;
 
-// }
+}
 
-// # include <iostream>
-// using namespace std;
-// int swap(float &x, float &y)
+# include <iostream>
+using namespace std;
+int swap(float &x, float &y)
 
-// {   float temp=x;   // temp=0.9
-//      x=y;           //  x=3.4;
-//      y=temp;        //  y=0.9;
+{   float temp=x;   // temp=0.9
+     x=y;           //  x=3.4;
+     y=temp;        //  y=0.9;
 
 // }
 // int main()
