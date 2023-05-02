@@ -17,20 +17,20 @@
 
      return 0;
 
-// }
-// # include <iostream>
-// using namespace std;
-// int main()
-// {   int a=5;
-//     int b=6;
+}
+# include <iostream>
+using namespace std;
+int main()
+{   int a=5;
+    int b=6;
 
-// increment and decrement operator
+increment and decrement operator
 
-// cout<<a--;  // postfix  incre...
-// cout<<a--;  // postfix  incre...
-// cout<<--b;  // prefix    decre...
-// a++ postfix  increment first return the same value then increment it
-// ++a prefix increment increment the first value
+cout<<a--;  // postfix  incre...
+cout<<a--;  // postfix  incre...
+cout<<--b;  // prefix    decre...
+a++ postfix  increment first return the same value then increment it
+++a prefix increment increment the first value
 
 //  #include <iostream>
 //  using namespace std;
